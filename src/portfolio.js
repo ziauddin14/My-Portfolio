@@ -179,7 +179,7 @@ const techStack = {
     },
     {
       Stack: "AI, Data Science & Problem Solving (Python, Data Analysis)",
-      progressPercentage: "40%"
+      progressPercentage: "20%"
     },
     {
       Stack: "Programming",
