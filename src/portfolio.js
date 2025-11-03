@@ -235,6 +235,18 @@ const bigProjects = {
       ]
     },
     {
+      // image: require("./assets/images/emsLogo.webp"),
+      projectName: "Human HealthCare ",
+      projectDesc:
+        "I designed and developed a fully responsive Human Healthcare website using Next.js and Tailwind CSS, featuring a clean UI with smooth transitions and modern animations for an engaging user experience.",
+      footerLink: [
+        {
+          name: "Visit Project",
+          url: "https://human-healthcare-next.vercel.app/"
+        }
+      ]
+    },
+    {
       // image: require("./assets/images/jsProjectsLogo.webp"),
       projectName: "JavaScript Projects Collection",
       projectDesc:
