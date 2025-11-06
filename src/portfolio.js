@@ -247,6 +247,18 @@ const bigProjects = {
       ]
     },
     {
+  // image: require("./assets/images/novaTalkLogo.webp"),
+  projectName: "NovaTalk – AI-Powered Chatbot",
+  projectDesc:
+    "I built NovaTalk, an AI-powered chatbot using the MERN stack. It answers user questions based on limited internal data—similar to the very first GPT models. If the answer exists in its dataset, it responds intelligently; otherwise, it returns no answer. The platform features a clean and fully responsive UI for seamless interactions.",
+  footerLink: [
+    {
+      name: "Visit Project",
+      url: "https://nova-talk-frontend.vercel.app/"
+    }
+  ]
+},
+    {
       // image: require("./assets/images/jsProjectsLogo.webp"),
       projectName: "JavaScript Projects Collection",
       projectDesc:
