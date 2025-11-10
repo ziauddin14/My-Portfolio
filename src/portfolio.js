@@ -235,6 +235,17 @@ const bigProjects = {
       ]
     },
     {
+  projectName: "React Boilerplate – UI Enhancement",
+  projectDesc:
+    "Contributed to an open-source React Boilerplate by improving the homepage UI/UX. Added modern hover effects, smooth animations, and interactive button styling — resulting in better visual appeal and user experience. Submitted via GitHub Pull Request.",
+  footerLink: [
+    {
+      name: "View Contribution",
+      url: "https://github.com/ziauddin14/react-boilerplate" 
+    }
+  ]
+},
+    {
       // image: require("./assets/images/emsLogo.webp"),
       projectName: "Human HealthCare ",
       projectDesc:
