@@ -308,6 +308,19 @@ const achievementSection = {
       ]
     },
     {
+      title: "Python (Basic) Certification",
+      subtitle:
+        "Earned from HackerRank for demonstrating core proficiency in Python fundamentals, problem-solving, and programming logic.",
+      image: require("./assets/images/hacker rank.png"),
+      imageAlt: "HackerRank Logo",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://drive.google.com/file/d/1bnrY9omMWTS0Vd5ozNo3tI5wopR4t6BA/view?usp=drive_link" 
+        }
+      ]
+    },
+    {
       title: "Volunteer – SMIT",
       subtitle:
         "Recognized for contributing as a volunteer at Saylani Mass IT Training (SMIT), assisting in community-driven tech learning initiatives.",
