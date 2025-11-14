@@ -229,7 +229,7 @@ const bigProjects = {
         "A full-stack MERN web application designed for efficient employee management — featuring authentication, role-based dashboards, and real-time CRUD operations to streamline HR workflows.",
       footerLink: [
         {
-          name: "Visit Project",
+          name: "Under Development",
           url: "https://emp-frotend.vercel.app"
         }
       ]
@@ -264,7 +264,7 @@ const bigProjects = {
     "I built NovaTalk, an AI-powered chatbot using the MERN stack. It answers user questions based on limited internal data—similar to the very first GPT models. If the answer exists in its dataset, it responds intelligently; otherwise, it returns no answer. The platform features a clean and fully responsive UI for seamless interactions.",
   footerLink: [
     {
-      name: "Visit Project",
+      name: "Under Deployment",
       url: "https://nova-talk-frontend.vercel.app/"
     }
   ]
