@@ -206,6 +206,13 @@ const workExperiences = {
       date: "May 2025 – July 2025",
       desc: "I worked as a Frontend Developer Intern at Aaghaz Tech from May 2025 to July 2025, where I developed the complete frontend of the company’s official website. I used HTML, CSS, JavaScript, React.js, and Tailwind CSS to build responsive and user-friendly interfaces. I converted Figma designs into functional components and collaborated with the backend team to integrate APIs. I managed code using Git and GitHub, and optimized the site for performance, SEO, and mobile responsiveness. This internship improved my technical skills, understanding of real-world development workflows, and strengthened my ability to deliver clean, efficient code on deadlines.",
     },
+    {
+      role: "Full Stack Developer",
+      company: "Human-HealthCare.com",
+      companylogo: require("./assets/HHC-logo.png"),
+      date: "Nov 2025 – Present",
+      desc: "I joined Human-Healthcare.com for a Full Stack Developer role, and I am currently working as a Next.js Developer, building responsive, high-performance interfaces with Next.js, React, TypeScript, and Tailwind. My responsibilities include creating clean UI/UX, optimizing performance, and implementing scalable component architecture. Over time, I will be moving into backend development (Python, Django) and contributing to the company’s mobile applications using frameworks like React Native, allowing me to work across the full stack and product ecosystem.",
+    },
   ]
 };
 
