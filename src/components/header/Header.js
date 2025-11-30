@@ -17,7 +17,7 @@ import {
 function Header() {
   const {isDark} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
-  const viewOpenSource = projects.display;
+  const viewOpenSource = openSource.display; // ✅ FIXED
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
@@ -80,7 +80,6 @@ function Header() {
             <a href="#contact">Contact Me</a>
           </li>
           <li>
-            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a>
               <ToggleSwitch />
             </a>
@@ -90,4 +89,5 @@ function Header() {
     </Headroom>
   );
 }
+
 export default Header;
