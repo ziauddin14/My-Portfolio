@@ -93,6 +93,10 @@ softwareSkills: [
     fontAwesomeClassname: "fab fa-react"
   },
   {
+    skillName: "NextJS",
+    fontAwesomeClassname: "fab fa-nextjs"
+  },
+  {
     skillName: "NodeJS",
     fontAwesomeClassname: "fab fa-node-js"
   },
@@ -140,28 +144,31 @@ display: true // Set false to hide this section, defaults to true
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
-  schools: [
-    {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
-  ]
+  display: true, // Set false to hide this section, defaults to true
+  schools : [
+  {
+    schoolName: "Virtual University of Pakistan",
+    logo: require("./assets/VU log.png"), // logo path change kar sakte ho
+    subHeader: "Bachelor of Science in Computer Science",
+    duration: "February 2026 - Present",
+    desc: "Currently pursuing Bachelor's in Computer Science with emphasis on modern web development, databases, and software engineering.",
+    descBullets: [
+      "Learning full-stack web development including React, NodeJS, and NextJS",
+      "Working on personal and academic projects to apply programming skills"
+    ]
+  },
+   {
+    schoolName: "Govt. Degree Boys College",
+    logo: require("./assets/Degree College.jpg"), // tum logo ka path add kar sakte ho
+    subHeader: "Intermediate",
+    duration: "August 2023 - May 2025",
+    desc: "Completed Higher Secondary Education with focus on Computer Science subjects, Mathematics, and English.",
+    descBullets: [
+      "Actively participated in college programming competitions",
+      "Maintained top grades in Computer Science and Mathematics"
+    ]
+  },
+]
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -204,14 +211,21 @@ const workExperiences = {
       company: "Aaghaz Tech",
       companylogo: require("./assets/images/Aaghaz tech.png"),
       date: "May 2025 – July 2025",
-      desc: "I worked as a Frontend Developer Intern at Aaghaz Tech from May 2025 to July 2025, where I developed the complete frontend of the company’s official website. I used HTML, CSS, JavaScript, React.js, and Tailwind CSS to build responsive and user-friendly interfaces. I converted Figma designs into functional components and collaborated with the backend team to integrate APIs. I managed code using Git and GitHub, and optimized the site for performance, SEO, and mobile responsiveness. This internship improved my technical skills, understanding of real-world development workflows, and strengthened my ability to deliver clean, efficient code on deadlines.",
+      desc: "I worked as a Frontend Developer Intern at Aaghaz Tech from May 2025 to July 2025, where I developed the complete frontend of the company’s official website.",
     },
     {
-      role: "Full Stack Developer",
+      role: "Senior Frontend Developer",
       company: "Human-HealthCare.com",
       companylogo: require("./assets/HHC-logo.png"),
       date: "Nov 2025 – Present",
-      desc: "I joined Human-Healthcare.com for a Full Stack Developer role, and I am currently working as a Next.js Developer, building responsive, high-performance interfaces with Next.js, React, TypeScript, and Tailwind. My responsibilities include creating clean UI/UX, optimizing performance, and implementing scalable component architecture. Over time, I will be moving into backend development (Python, Django) and contributing to the company’s mobile applications using frameworks like React Native, allowing me to work across the full stack and product ecosystem.",
+      desc: "I joined Human-Healthcare.com for a Senior Frontend Developer role, and I Develope the complete frontend of the company’s official website with API integration.",
+    },
+    {
+      role: "Full Stack Developer",
+      company: "DeveloperHub Corporation",
+      companylogo: require("./assets/DeveloperHub Corporaiton.jpg"),
+      date: "Dec 2025 – Present",
+      desc: "I joined DeveloperHub Corporation for a Full Stack Developer role, where I work with all the Web Development Stacks and I'm currently focused on Backend Development.",
     },
   ]
 };
@@ -300,47 +314,62 @@ const achievementSection = {
   title: emoji("Achievements & Certifications 🏆"),
   subtitle: "Some highlights of my learning journey, certifications, and contributions!",
 
-  achievementsCards: [
-    {
-      title: "JavaScript (Basic) Certification",
-      subtitle:
-        "Earned from HackerRank for demonstrating core proficiency in JavaScript fundamentals, problem-solving, and programming logic.",
-      image: require("./assets/images/hacker rank.png"),
-      imageAlt: "HackerRank Logo",
-      footerLink: [
-        {
-          name: "View Certificate",
-          url: "https://drive.google.com/file/d/1bf_e_LBd4wPReIgXjH49gjH5FU2aSahi/view" // add your certificate link here
-        }
-      ]
-    },
-    {
-      title: "Python (Basic) Certification",
-      subtitle:
-        "Earned from HackerRank for demonstrating core proficiency in Python fundamentals, problem-solving, and programming logic.",
-      image: require("./assets/images/hacker rank.png"),
-      imageAlt: "HackerRank Logo",
-      footerLink: [
-        {
-          name: "View Certificate",
-          url: "https://drive.google.com/file/d/1bnrY9omMWTS0Vd5ozNo3tI5wopR4t6BA/view?usp=drive_link" 
-        }
-      ]
-    },
-    {
-      title: "Volunteer – SMIT",
-      subtitle:
-        "Recognized for contributing as a volunteer at Saylani Mass IT Training (SMIT), assisting in community-driven tech learning initiatives.",
-      image: require("./assets/images/SMIT logo.png"),
-      imageAlt: "SMIT Logo",
-      footerLink: [
-        {
-          name: "View Certificate",
-          url: "https://drive.google.com/file/d/1SSH7c3b1RJ6WvoGFY5T4yfLncmUGseh2/view" // add your volunteer certificate link here
-        }
-      ]
-    }
-  ],
+  achievementsCards : [
+  {
+    title: "JavaScript (Basic) Certification",
+    subtitle:
+      "Earned from HackerRank for demonstrating core proficiency in JavaScript fundamentals, problem-solving, and programming logic.",
+    image: require("./assets/images/hacker rank.png"),
+    imageAlt: "HackerRank Logo",
+    footerLink: [
+      {
+        name: "View Certificate",
+        url: "https://drive.google.com/file/d/1bf_e_LBd4wPReIgXjH49gjH5FU2aSahi/view"
+      }
+    ]
+  },
+  {
+    title: "12-Hour Hackathon – SMIT",
+    subtitle:
+      "Successfully participated in a 12-hour Hackathon organized by SMIT, developing a Python-based SMS automation project and completing all assigned tasks.",
+    image: require("./assets/images/SMIT logo.png"),
+    imageAlt: "SMIT Hackathon Logo",
+    footerLink: [
+      {
+        name: "View Certificate",
+        url: "https://drive.google.com/file/d/17gNhsHpjRgfYKXmUeViUIWjRsAxN47q4/view?usp=drive_link" // replace with your actual certificate link
+      }
+    ]
+  },
+  {
+    title: "Python (Basic) Certification",
+    subtitle:
+      "Earned from HackerRank for demonstrating core proficiency in Python fundamentals, problem-solving, and programming logic.",
+    image: require("./assets/images/hacker rank.png"),
+    imageAlt: "HackerRank Logo",
+    footerLink: [
+      {
+        name: "View Certificate",
+        url: "https://drive.google.com/file/d/1bnrY9omMWTS0Vd5ozNo3tI5wopR4t6BA/view?usp=drive_link"
+      }
+    ]
+  },
+  {
+    title: "Volunteer – SMIT",
+    subtitle:
+      "Recognized for contributing as a volunteer at Saylani Mass IT Training (SMIT), assisting in community-driven tech learning initiatives.",
+    image: require("./assets/images/SMIT logo.png"),
+    imageAlt: "SMIT Logo",
+    footerLink: [
+      {
+        name: "View Certificate",
+        url: "https://drive.google.com/file/d/1SSH7c3b1RJ6WvoGFY5T4yfLncmUGseh2/view"
+      }
+    ]
+  },
+  
+  
+],
   display: true
 };
 

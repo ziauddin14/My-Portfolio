@@ -7,22 +7,22 @@ import {
   greeting,
   workExperiences,
   skillsSection,
-  openSource,
+  bigProjects,
   blogSection,
   talkSection,
   achievementSection,
-  resumeSection
+  educationInfo
 } from "../../portfolio";
 
 function Header() {
   const {isDark} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
-  const viewOpenSource = openSource.display; // ✅ FIXED
+  const education = educationInfo.display;
   const viewSkills = skillsSection.display;
+  const viewProjects = bigProjects.display;
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
-  const viewResume = resumeSection.display;
 
   return (
     <Headroom>
@@ -46,14 +46,19 @@ function Header() {
               <a href="#skills">Skills</a>
             </li>
           )}
+          {education && (
+            <li>
+              <a href="#education">Education</a>
+            </li>
+          )}
           {viewExperience && (
             <li>
               <a href="#experience">Work Experiences</a>
             </li>
           )}
-          {viewOpenSource && (
+          {viewProjects && (
             <li>
-              <a href="#Projects">Projects</a>
+              <a href="#projects">Projects</a>
             </li>
           )}
           {viewAchievement && (
@@ -69,11 +74,6 @@ function Header() {
           {viewTalks && (
             <li>
               <a href="#talks">Talks</a>
-            </li>
-          )}
-          {viewResume && (
-            <li>
-              <a href="#resume">Resume</a>
             </li>
           )}
           <li>
