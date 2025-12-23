@@ -316,6 +316,19 @@ const achievementSection = {
 
   achievementsCards : [
   {
+    title: "Python Essential 1 Certification",
+    subtitle:
+      "Earned from Cisco Networking Academy for demonstrating core proficiency in Python fundamentals, problem-solving, and programming logic.",
+    image: require("./assets/Cisco log.png"),
+    imageAlt: "Cisco Logo",
+    footerLink: [
+      {
+        name: "View Certificate",
+        url: "https://drive.google.com/file/d/1KCULK-pHi4BHGz8H4-yjZkKODAryL7y9/view?usp=drive_link"
+      }
+    ]
+  },
+  {
     title: "JavaScript (Basic) Certification",
     subtitle:
       "Earned from HackerRank for demonstrating core proficiency in JavaScript fundamentals, problem-solving, and programming logic.",
