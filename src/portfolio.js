@@ -245,9 +245,21 @@ const bigProjects = {
   projects: [
     {
       // image: require("./assets/images/emsLogo.webp"),
+      projectName: "Zakat & Donation Management System",
+      projectDesc:
+        "A MERN-based full-stack web app for Zakat calculation and management with secure authentication, real-time database operations, and a responsive UI. Deployed using Vercel (frontend) and Render (backend), showcasing RESTful APIs, cloud deployment, and end-to-end full-stack development skills",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://zakat-ms.vercel.app"
+        }
+      ]
+    },
+    {
+      // image: require("./assets/images/emsLogo.webp"),
       projectName: "EMS (Employee Management System)",
       projectDesc:
-        "A full-stack MERN web application designed for efficient employee management — featuring authentication, role-based dashboards, and real-time CRUD operations to streamline HR workflows.",
+        "A full-stack MERN web application designed for efficient employee management — featuring authentication, role-based dashboards, and real-time CRUD operations to streamline HR workflows. Deployed using Vercel and backend under Development , showcasing RESTful APIs and end-to-end full-stack development skills",
       footerLink: [
         {
           name: "Under Development",
@@ -258,7 +270,7 @@ const bigProjects = {
     {
   projectName: "React Boilerplate – UI Enhancement",
   projectDesc:
-    "Contributed to an open-source React Boilerplate by improving the homepage UI/UX. Added modern hover effects, smooth animations, and interactive button styling — resulting in better visual appeal and user experience. Submitted via GitHub Pull Request.",
+    "Contributed to an open-source React Boilerplate by improving the homepage UI/UX. Added modern hover effects, smooth animations, and interactive button styling — resulting in better visual appeal and user experience. Submitted via GitHub Pull Request. ",
   footerLink: [
     {
       name: "View Contribution",
