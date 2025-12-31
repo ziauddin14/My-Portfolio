@@ -93,6 +93,10 @@ softwareSkills: [
     fontAwesomeClassname: "fab fa-react"
   },
   {
+    skillName: "React Native",
+    fontAwesomeClassname: "fab fa-react-native"
+  },
+  {
     skillName: "NextJS",
     fontAwesomeClassname: "fab fa-nextjs"
   },
