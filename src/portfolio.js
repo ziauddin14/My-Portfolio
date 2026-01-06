@@ -23,9 +23,9 @@ const greeting = {
   username: "Zia Uddin",
   title: "Hi all, I'm Zia Uddin",
   subTitle: emoji(
-"🚀 MERN Stack Developer with hands-on experience in building full-stack web apps using MongoDB, Express, React, and Node.js.Passionate about creating clean, high-performance digital solutions and currently exploring AI & Data Science to build smarter applications."),
-  resumeLink:
-    "", // Set to empty to hide the button
+    "🚀 MERN Stack Developer with hands-on experience in building full-stack web apps using MongoDB, Express, React, and Node.js.Passionate about creating clean, high-performance digital solutions and currently exploring AI & Data Science to build smarter applications."
+  ),
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -63,116 +63,116 @@ const skillsSection = {
     )
   ],
 
-softwareSkills: [
-  {
-    skillName: "HTML5",
-    fontAwesomeClassname: "fab fa-html5"
-  },
-  {
-    skillName: "CSS3",
-    fontAwesomeClassname: "fab fa-css3-alt"
-  },
-  {
-    skillName: "Bootstrap",
-    fontAwesomeClassname: "fab fa-bootstrap"
-  },
-  {
-    skillName: "Tailwind CSS",
-    fontAwesomeClassname: "fas fa-wind"
-  },
-  {
-    skillName: "JavaScript",
-    fontAwesomeClassname: "fab fa-js"
-  },
-  {
-    skillName: "TypeScript",
-    fontAwesomeClassname: "fab fa-js-square"
-  },
-  {
-    skillName: "ReactJS",
-    fontAwesomeClassname: "fab fa-react"
-  },
-  {
-    skillName: "React Native",
-    fontAwesomeClassname: "fab fa-react-native"
-  },
-  {
-    skillName: "NextJS",
-    fontAwesomeClassname: "fab fa-nextjs"
-  },
-  {
-    skillName: "NodeJS",
-    fontAwesomeClassname: "fab fa-node-js"
-  },
-  {
-    skillName: "ExpressJS",
-    fontAwesomeClassname: "fas fa-server"
-  },
-  {
-    skillName: "MongoDB",
-    fontAwesomeClassname: "fas fa-leaf"
-  },
-  {
-    skillName: "GraphQL",
-    fontAwesomeClassname: "fas fa-project-diagram"
-  },
-  {
-    skillName: "Firebase",
-    fontAwesomeClassname: "fas fa-fire"
-  },
-  {
-    skillName: "Redis",
-    fontAwesomeClassname: "fas fa-database"
-  },
-  {
-    skillName: "NPM",
-    fontAwesomeClassname: "fab fa-npm"
-  },
-  {
-    skillName: "Git",
-    fontAwesomeClassname: "fab fa-git-alt"
-  },
-  {
-    skillName: "GitHub",
-    fontAwesomeClassname: "fab fa-github"
-  },
-  {
-    skillName: "Python",
-    fontAwesomeClassname: "fab fa-python"
-  }
-],
-display: true // Set false to hide this section, defaults to true
- // Set false to hide this section, defaults to true
+  softwareSkills: [
+    {
+      skillName: "HTML5",
+      fontAwesomeClassname: "fab fa-html5"
+    },
+    {
+      skillName: "CSS3",
+      fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    {
+      skillName: "Bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
+    },
+    {
+      skillName: "Tailwind CSS",
+      fontAwesomeClassname: "fas fa-wind"
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "TypeScript",
+      fontAwesomeClassname: "fab fa-js-square"
+    },
+    {
+      skillName: "ReactJS",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "React Native",
+      fontAwesomeClassname: "fab fa-react-native"
+    },
+    {
+      skillName: "NextJS",
+      fontAwesomeClassname: "fab fa-nextjs"
+    },
+    {
+      skillName: "NodeJS",
+      fontAwesomeClassname: "fab fa-node-js"
+    },
+    {
+      skillName: "ExpressJS",
+      fontAwesomeClassname: "fas fa-server"
+    },
+    {
+      skillName: "MongoDB",
+      fontAwesomeClassname: "fas fa-leaf"
+    },
+    {
+      skillName: "GraphQL",
+      fontAwesomeClassname: "fas fa-project-diagram"
+    },
+    {
+      skillName: "Firebase",
+      fontAwesomeClassname: "fas fa-fire"
+    },
+    {
+      skillName: "Redis",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "NPM",
+      fontAwesomeClassname: "fab fa-npm"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
+    {
+      skillName: "GitHub",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+  // Set false to hide this section, defaults to true
 };
 
 // Education Section
 
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
-  schools : [
-  {
-    schoolName: "Virtual University of Pakistan",
-    logo: require("./assets/VU log.png"), // logo path change kar sakte ho
-    subHeader: "Bachelor of Science in Computer Science",
-    duration: "February 2026 - Present",
-    desc: "Currently pursuing Bachelor's in Computer Science with emphasis on modern web development, databases, and software engineering.",
-    descBullets: [
-      "Learning full-stack web development including React, NodeJS, and NextJS",
-      "Working on personal and academic projects to apply programming skills"
-    ]
-  },
-   {
-    schoolName: "Govt. Degree Boys College",
-    logo: require("./assets/Degree College.jpg"), // tum logo ka path add kar sakte ho
-    subHeader: "Intermediate",
-    duration: "August 2023 - May 2025",
-    desc: "Completed Higher Secondary Education with focus on Computer Science subjects, Mathematics, and English.",
-    descBullets: [
-      "Actively participated in college programming competitions",
-      "Maintained top grades in Computer Science and Mathematics"
-    ]
-  },
-]
+  schools: [
+    {
+      schoolName: "Virtual University of Pakistan",
+      logo: require("./assets/VU log.png"), // logo path change kar sakte ho
+      subHeader: "Bachelor of Science in Computer Science",
+      duration: "February 2026 - Present",
+      desc: "Currently pursuing Bachelor's in Computer Science with emphasis on modern web development, databases, and software engineering.",
+      descBullets: [
+        "Learning full-stack web development including React, NodeJS, and NextJS",
+        "Working on personal and academic projects to apply programming skills"
+      ]
+    },
+    {
+      schoolName: "Govt. Degree Boys College",
+      logo: require("./assets/Degree College.jpg"), // tum logo ka path add kar sakte ho
+      subHeader: "Intermediate",
+      duration: "August 2023 - May 2025",
+      desc: "Completed Higher Secondary Education with focus on Computer Science subjects, Mathematics, and English.",
+      descBullets: [
+        "Actively participated in college programming competitions",
+        "Maintained top grades in Computer Science and Mathematics"
+      ]
+    }
+  ]
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -194,16 +194,15 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage:"90%"
+      progressPercentage: "90%"
     },
     {
       Stack: "SPA Development",
-      progressPercentage:"70%"
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: true // Optional: Set true if you've added your CodersRank username
 };
-
 
 // Work experience section
 
@@ -215,22 +214,22 @@ const workExperiences = {
       company: "Aaghaz Tech",
       companylogo: require("./assets/images/Aaghaz tech.png"),
       date: "May 2025 – July 2025",
-      desc: "I worked as a Frontend Developer Intern at Aaghaz Tech from May 2025 to July 2025, where I developed the complete frontend of the company’s official website.",
+      desc: "I worked as a Frontend Developer Intern at Aaghaz Tech from May 2025 to July 2025, where I developed the complete frontend of the company’s official website."
     },
     {
       role: "Senior Frontend Developer",
       company: "Human-HealthCare.com",
       companylogo: require("./assets/HHC-logo.png"),
       date: "Nov 2025 – Present",
-      desc: "I joined Human-Healthcare.com for a Senior Frontend Developer role, and I Develope the complete frontend of the company’s official website with API integration.",
+      desc: "I joined Human-Healthcare.com for a Senior Frontend Developer role, and I Develope the complete frontend of the company’s official website with API integration."
     },
     {
       role: "Full Stack Developer",
       company: "DeveloperHub Corporation",
       companylogo: require("./assets/DeveloperHub Corporaiton.jpg"),
       date: "Dec 2025 – Present",
-      desc: "I joined DeveloperHub Corporation for a Full Stack Developer role, where I work with all the Web Development Stacks and I'm currently focused on Backend Development.",
-    },
+      desc: "I joined DeveloperHub Corporation for a Full Stack Developer role, where I work with all the Web Development Stacks and I'm currently focused on Backend Development."
+    }
   ]
 };
 
@@ -272,16 +271,16 @@ const bigProjects = {
       ]
     },
     {
-  projectName: "React Boilerplate – UI Enhancement",
-  projectDesc:
-    "Contributed to an open-source React Boilerplate by improving the homepage UI/UX. Added modern hover effects, smooth animations, and interactive button styling — resulting in better visual appeal and user experience. Submitted via GitHub Pull Request. ",
-  footerLink: [
-    {
-      name: "View Contribution",
-      url: "https://github.com/ziauddin14/react-boilerplate" 
-    }
-  ]
-},
+      projectName: "React Boilerplate – UI Enhancement",
+      projectDesc:
+        "Contributed to an open-source React Boilerplate by improving the homepage UI/UX. Added modern hover effects, smooth animations, and interactive button styling — resulting in better visual appeal and user experience. Submitted via GitHub Pull Request. ",
+      footerLink: [
+        {
+          name: "View Contribution",
+          url: "https://github.com/ziauddin14/react-boilerplate"
+        }
+      ]
+    },
     {
       // image: require("./assets/images/emsLogo.webp"),
       projectName: "Human HealthCare ",
@@ -295,17 +294,17 @@ const bigProjects = {
       ]
     },
     {
-  // image: require("./assets/images/novaTalkLogo.webp"),
-  projectName: "NovaTalk – AI-Powered Chatbot",
-  projectDesc:
-    "I built NovaTalk, an AI-powered chatbot using the MERN stack. It answers user questions based on limited internal data—similar to the very first GPT models. If the answer exists in its dataset, it responds intelligently; otherwise, it returns no answer. The platform features a clean and fully responsive UI for seamless interactions.",
-  footerLink: [
-    {
-      name: "Under Deployment",
-      url: "https://nova-talk-frontend.vercel.app/"
-    }
-  ]
-},
+      // image: require("./assets/images/novaTalkLogo.webp"),
+      projectName: "NovaTalk – AI-Powered Chatbot",
+      projectDesc:
+        "I built NovaTalk, an AI-powered chatbot using the MERN stack. It answers user questions based on limited internal data—similar to the very first GPT models. If the answer exists in its dataset, it responds intelligently; otherwise, it returns no answer. The platform features a clean and fully responsive UI for seamless interactions.",
+      footerLink: [
+        {
+          name: "Under Deployment",
+          url: "https://nova-talk-frontend.vercel.app/"
+        }
+      ]
+    },
     {
       // image: require("./assets/images/jsProjectsLogo.webp"),
       projectName: "JavaScript Projects Collection",
@@ -322,83 +321,94 @@ const bigProjects = {
   display: true
 };
 
-
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
   title: emoji("Achievements & Certifications 🏆"),
-  subtitle: "Some highlights of my learning journey, certifications, and contributions!",
+  subtitle:
+    "Some highlights of my learning journey, certifications, and contributions!",
 
-  achievementsCards : [
-  {
-    title: "Python Essential 1 Certification",
-    subtitle:
-      "Earned from Cisco Networking Academy for demonstrating core proficiency in Python fundamentals, problem-solving, and programming logic.",
-    image: require("./assets/Cisco log.png"),
-    imageAlt: "Cisco Logo",
-    footerLink: [
-      {
-        name: "View Certificate",
-        url: "https://drive.google.com/file/d/1KCULK-pHi4BHGz8H4-yjZkKODAryL7y9/view?usp=drive_link"
-      }
-    ]
-  },
-  {
-    title: "JavaScript (Basic) Certification",
-    subtitle:
-      "Earned from HackerRank for demonstrating core proficiency in JavaScript fundamentals, problem-solving, and programming logic.",
-    image: require("./assets/images/hacker rank.png"),
-    imageAlt: "HackerRank Logo",
-    footerLink: [
-      {
-        name: "View Certificate",
-        url: "https://drive.google.com/file/d/1bf_e_LBd4wPReIgXjH49gjH5FU2aSahi/view"
-      }
-    ]
-  },
-  {
-    title: "12-Hour Hackathon – SMIT",
-    subtitle:
-      "Successfully participated in a 12-hour Hackathon organized by SMIT, developing a Python-based SMS automation project and completing all assigned tasks.",
-    image: require("./assets/images/SMIT logo.png"),
-    imageAlt: "SMIT Hackathon Logo",
-    footerLink: [
-      {
-        name: "View Certificate",
-        url: "https://drive.google.com/file/d/17gNhsHpjRgfYKXmUeViUIWjRsAxN47q4/view?usp=drive_link" // replace with your actual certificate link
-      }
-    ]
-  },
-  {
-    title: "Python (Basic) Certification",
-    subtitle:
-      "Earned from HackerRank for demonstrating core proficiency in Python fundamentals, problem-solving, and programming logic.",
-    image: require("./assets/images/hacker rank.png"),
-    imageAlt: "HackerRank Logo",
-    footerLink: [
-      {
-        name: "View Certificate",
-        url: "https://drive.google.com/file/d/1bnrY9omMWTS0Vd5ozNo3tI5wopR4t6BA/view?usp=drive_link"
-      }
-    ]
-  },
-  {
-    title: "Volunteer – SMIT",
-    subtitle:
-      "Recognized for contributing as a volunteer at Saylani Mass IT Training (SMIT), assisting in community-driven tech learning initiatives.",
-    image: require("./assets/images/SMIT logo.png"),
-    imageAlt: "SMIT Logo",
-    footerLink: [
-      {
-        name: "View Certificate",
-        url: "https://drive.google.com/file/d/1SSH7c3b1RJ6WvoGFY5T4yfLncmUGseh2/view"
-      }
-    ]
-  },
-  
-  
-],
+  achievementsCards: [
+    {
+      title: "CWP (Certified Web Professional)",
+      subtitle:
+        "Successfully completed Web Development training, gaining strong fundamentals and hands-on development experience.",
+      image: require("./assets/images/SMIT logo.png"),
+      imageAlt: "SMIT Logo",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://drive.google.com/file/d/1tix3x01K56nYrgBW2tI9516K3rxUKMAr/view?usp=drive_link"
+        }
+      ]
+    },
+    {
+      title: "Python Essential 1 Certification",
+      subtitle:
+        "Earned from Cisco Networking Academy for demonstrating core proficiency in Python fundamentals, problem-solving, and programming logic.",
+      image: require("./assets/Cisco log.png"),
+      imageAlt: "Cisco Logo",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://drive.google.com/file/d/1KCULK-pHi4BHGz8H4-yjZkKODAryL7y9/view?usp=drive_link"
+        }
+      ]
+    },
+    {
+      title: "JavaScript (Basic) Certification",
+      subtitle:
+        "Earned from HackerRank for demonstrating core proficiency in JavaScript fundamentals, problem-solving, and programming logic.",
+      image: require("./assets/images/hacker rank.png"),
+      imageAlt: "HackerRank Logo",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://drive.google.com/file/d/1bf_e_LBd4wPReIgXjH49gjH5FU2aSahi/view"
+        }
+      ]
+    },
+    {
+      title: "12-Hour Hackathon – SMIT",
+      subtitle:
+        "Successfully participated in a 12-hour Hackathon organized by SMIT, developing a Python-based SMS automation project and completing all assigned tasks.",
+      image: require("./assets/images/SMIT logo.png"),
+      imageAlt: "SMIT Hackathon Logo",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://drive.google.com/file/d/17gNhsHpjRgfYKXmUeViUIWjRsAxN47q4/view?usp=drive_link" // replace with your actual certificate link
+        }
+      ]
+    },
+    {
+      title: "Python (Basic) Certification",
+      subtitle:
+        "Earned from HackerRank for demonstrating core proficiency in Python fundamentals, problem-solving, and programming logic.",
+      image: require("./assets/images/hacker rank.png"),
+      imageAlt: "HackerRank Logo",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://drive.google.com/file/d/1bnrY9omMWTS0Vd5ozNo3tI5wopR4t6BA/view?usp=drive_link"
+        }
+      ]
+    },
+    {
+      title: "Volunteer – SMIT",
+      subtitle:
+        "Recognized for contributing as a volunteer at Saylani Mass IT Training (SMIT), assisting in community-driven tech learning initiatives.",
+      image: require("./assets/images/SMIT logo.png"),
+      imageAlt: "SMIT Logo",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://drive.google.com/file/d/1SSH7c3b1RJ6WvoGFY5T4yfLncmUGseh2/view"
+        }
+      ]
+    }
+  ],
   display: true
 };
 
@@ -419,7 +429,6 @@ const blogSection = {
   ],
   display: true
 };
-
 
 // Talks Sections
 
@@ -469,7 +478,6 @@ const contactInfo = {
   number: "+92 319 8998086",
   email_address: "zu37216@gmail.com"
 };
-
 
 // Twitter Section
 
