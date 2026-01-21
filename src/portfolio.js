@@ -227,7 +227,7 @@ const workExperiences = {
       role: "Full Stack Developer",
       company: "DeveloperHub Corporation",
       companylogo: require("./assets/DeveloperHub Corporaiton.jpg"),
-      date: "Dec 2025 – Present",
+      date: "Dec 2025 – Jan 2026",
       desc: "I joined DeveloperHub Corporation for a Full Stack Developer role, where I work with all the Web Development Stacks and I'm currently focused on Backend Development."
     }
   ]
@@ -246,6 +246,17 @@ const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME OF MY FEATURED WORKS BUILT WITH PASSION AND MODERN TECH",
   projects: [
+    {
+      projectName: "Human-Healthcare.com – Official Company Website",
+      projectDesc:
+        "A large-scale, production-ready healthcare website built for Human-Healthcare.com, where I currently work. I designed and developed the complete frontend using modern technologies, delivering a fully responsive, high-performance UI with smooth animations, clean layouts, and an enterprise-level user experience for a live healthcare platform.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://human-healthcare.com"
+        }
+      ]
+    },
     {
       // image: require("./assets/images/emsLogo.webp"),
       projectName: "Zakat & Donation Management System",
