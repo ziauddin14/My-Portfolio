@@ -76,13 +76,15 @@ function Header() {
               <a href="#talks">Talks</a>
             </li>
           )}
+
           <li>
             <a href="#contact">Contact Me</a>
           </li>
+
           <li>
-            <a>
+            <button type="button" className="toggle-btn">
               <ToggleSwitch />
-            </a>
+            </button>
           </li>
         </ul>
       </header>
