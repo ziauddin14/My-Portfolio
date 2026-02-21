@@ -342,6 +342,19 @@ const achievementSection = {
 
   achievementsCards: [
     {
+      title: "Microsoft – AI Concepts for Developers",
+      subtitle:
+        "Successfully completed the Microsoft AI Concepts for Developers Learning Path, earning 7 achievement badges and a final trophy certificate for mastering core AI concepts, Azure AI services, and practical AI development skills.",
+      image: require("./assets/Microsoft.png"), // add microsoft logo image in assets
+      imageAlt: "Microsoft Logo",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://drive.google.com/file/d/1dAqdfTI3PGG1cwniveuXkV8dCS9x1aq1/view?usp=drive_link"
+        }
+      ]
+    },
+    {
       title: "CWP (Certified Web Professional)",
       subtitle:
         "Successfully completed Web Development training, gaining strong fundamentals and hands-on development experience.",
