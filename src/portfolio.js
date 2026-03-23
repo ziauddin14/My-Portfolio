@@ -247,6 +247,17 @@ const bigProjects = {
   subtitle: "SOME OF MY FEATURED WORKS BUILT WITH PASSION AND MODERN TECH",
   projects: [
     {
+      projectName: "Primecare Health – Comprehensive Clinic Management System",
+      projectDesc:
+        "A sophisticated, full-stack Clinic Management System (CMS) designed to automate healthcare workflows. It features secure patient records, real-time appointment booking, doctor scheduling, and a global admin panel for streamlined medical facility operations. Built with a focus on performance, SEO, and user-centric design.",
+      footerLink: [
+        {
+          name: "Visit Project",
+          url: "https://primecarehealth.vercel.app/"
+        }
+      ]
+    },
+    {
       projectName: "Human-Healthcare.com – Official Company Website",
       projectDesc:
         "A large-scale, production-ready healthcare website built for Human-Healthcare.com, where I currently work. I designed and developed the complete frontend using modern technologies, delivering a fully responsive, high-performance UI with smooth animations, clean layouts, and an enterprise-level user experience for a live healthcare platform.",
