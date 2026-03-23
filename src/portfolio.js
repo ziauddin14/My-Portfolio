@@ -220,7 +220,7 @@ const workExperiences = {
       role: "Senior Frontend Developer",
       company: "Human-HealthCare.com",
       companylogo: require("./assets/HHC-logo.png"),
-      date: "Nov 2025 – Present",
+      date: "Nov 2025 – Feb 2026",
       desc: "I joined Human-Healthcare.com for a Senior Frontend Developer role, and I Develope the complete frontend of the company’s official website with API integration."
     },
     {
@@ -362,6 +362,19 @@ const achievementSection = {
         {
           name: "View Certificate",
           url: "https://drive.google.com/file/d/1dAqdfTI3PGG1cwniveuXkV8dCS9x1aq1/view?usp=drive_link"
+        }
+      ]
+    },
+    {
+      title: "Frontend Developer Internship – Human Health Care",
+      subtitle:
+        "Awarded for successfully completing a 3-month internship (Nov 2025 – Feb 2026). Contributed to the development of the company’s official website and mobile portal, delivering high-quality frontend results and responsive UI components for a production healthcare platform.",
+      image: require("./assets/HHC-logo.png"),
+      imageAlt: "HHC Logo",
+      footerLink: [
+        {
+          name: "Company Website",
+          url: "https://human-healthcare.com"
         }
       ]
     },
