@@ -355,106 +355,106 @@ const achievementSection = {
     {
       title: "Microsoft – AI Concepts for Developers",
       subtitle:
-        "Successfully completed the Microsoft AI Concepts for Developers Learning Path, earning 7 achievement badges and a final trophy certificate for mastering core AI concepts, Azure AI services, and practical AI development skills.",
-      image: require("./assets/Microsoft.png"), // add microsoft logo image in assets
-      imageAlt: "Microsoft Logo",
-      footerLink: [
-        {
-          name: "View Certificate",
-          url: "https://drive.google.com/file/d/1dAqdfTI3PGG1cwniveuXkV8dCS9x1aq1/view?usp=drive_link"
-        }
-      ]
+        "Successfully completed the Microsoft AI Concepts for Developers Learning Path, earning 7 achievement badges and a final trophy certificate for mastering core AI concepts.",
+      image: require("./assets/microsoft.jpeg"), // add microsoft logo image in assets
+      imageAlt: "Microsoft Logo"
+      // footerLink: [
+      //   {
+      //     name: "View Certificate",
+      //     url: "https://drive.google.com/file/d/1dAqdfTI3PGG1cwniveuXkV8dCS9x1aq1/view?usp=drive_link"
+      //   }
+      // ]
     },
     {
-      title: "Frontend Developer Internship – Human Health Care",
+      title: "Internship Completion Certificate",
       subtitle:
-        "Awarded for successfully completing a 3-month internship (Nov 2025 – Feb 2026). Contributed to the development of the company’s official website and mobile portal, delivering high-quality frontend results and responsive UI components for a production healthcare platform.",
-      image: require("./assets/HHC-logo.png"),
-      imageAlt: "HHC Logo",
-      footerLink: [
-        {
-          name: "Company Website",
-          url: "https://human-healthcare.com"
-        }
-      ]
+        "Awarded for successfully completing a 3-month internship (Nov 2025 – Feb 2026). Contributed to the development of the company’s official website and mobile portal.",
+      image: require("./assets/internship completion.jpeg"),
+      imageAlt: "HHC Logo"
+      // footerLink: [
+      //   {
+      //     name: "Company Website",
+      //     url: "https://human-healthcare.com"
+      //   }
+      // ]
     },
     {
       title: "CWP (Certified Web Professional)",
       subtitle:
-        "Successfully completed Web Development training, gaining strong fundamentals and hands-on development experience.",
-      image: require("./assets/images/SMIT logo.png"),
-      imageAlt: "SMIT Logo",
-      footerLink: [
-        {
-          name: "View Certificate",
-          url: "https://drive.google.com/file/d/1tix3x01K56nYrgBW2tI9516K3rxUKMAr/view?usp=drive_link"
-        }
-      ]
+        "Successfully completed Web Development training, gaining strong fundamentals and hands-on development experience. SMIT (Saylani Mass IT Training)",
+      image: require("./assets/web.jpeg"),
+      imageAlt: "SMIT Logo"
+      // footerLink: [
+      //   {
+      //     name: "View Certificate",
+      //     url: "https://drive.google.com/file/d/1tix3x01K56nYrgBW2tI9516K3rxUKMAr/view?usp=drive_link"
+      //   }
+      // ]
     },
     {
       title: "Python Essential 1 Certification",
       subtitle:
         "Earned from Cisco Networking Academy for demonstrating core proficiency in Python fundamentals, problem-solving, and programming logic.",
-      image: require("./assets/Cisco log.png"),
-      imageAlt: "Cisco Logo",
-      footerLink: [
-        {
-          name: "View Certificate",
-          url: "https://drive.google.com/file/d/1KCULK-pHi4BHGz8H4-yjZkKODAryL7y9/view?usp=drive_link"
-        }
-      ]
+      image: require("./assets/cisco.jpeg"),
+      imageAlt: "Cisco Logo"
+      // footerLink: [
+      //   {
+      //     name: "View Certificate",
+      //     url: "https://drive.google.com/file/d/1KCULK-pHi4BHGz8H4-yjZkKODAryL7y9/view?usp=drive_link"
+      //   }
+      // ]
     },
     {
       title: "JavaScript (Basic) Certification",
       subtitle:
         "Earned from HackerRank for demonstrating core proficiency in JavaScript fundamentals, problem-solving, and programming logic.",
-      image: require("./assets/images/hacker rank.png"),
-      imageAlt: "HackerRank Logo",
-      footerLink: [
-        {
-          name: "View Certificate",
-          url: "https://drive.google.com/file/d/1bf_e_LBd4wPReIgXjH49gjH5FU2aSahi/view"
-        }
-      ]
+      image: require("./assets/javascript.jpeg"),
+      imageAlt: "HackerRank Logo"
+      // footerLink: [
+      //   {
+      //     name: "View Certificate",
+      //     url: "https://drive.google.com/file/d/1bf_e_LBd4wPReIgXjH49gjH5FU2aSahi/view"
+      //   }
+      // ]
     },
     {
       title: "12-Hour Hackathon – SMIT",
       subtitle:
         "Successfully participated in a 12-hour Hackathon organized by SMIT, developing a Python-based SMS automation project and completing all assigned tasks.",
-      image: require("./assets/images/SMIT logo.png"),
-      imageAlt: "SMIT Hackathon Logo",
-      footerLink: [
-        {
-          name: "View Certificate",
-          url: "https://drive.google.com/file/d/17gNhsHpjRgfYKXmUeViUIWjRsAxN47q4/view?usp=drive_link" // replace with your actual certificate link
-        }
-      ]
+      image: require("./assets/hackathon.jpeg"),
+      imageAlt: "SMIT Hackathon Logo"
+      // footerLink: [
+      //   {
+      //     name: "View Certificate",
+      //     url: "https://drive.google.com/file/d/17gNhsHpjRgfYKXmUeViUIWjRsAxN47q4/view?usp=drive_link" // replace with your actual certificate link
+      //   }
+      // ]
     },
     {
       title: "Python (Basic) Certification",
       subtitle:
         "Earned from HackerRank for demonstrating core proficiency in Python fundamentals, problem-solving, and programming logic.",
-      image: require("./assets/images/hacker rank.png"),
-      imageAlt: "HackerRank Logo",
-      footerLink: [
-        {
-          name: "View Certificate",
-          url: "https://drive.google.com/file/d/1bnrY9omMWTS0Vd5ozNo3tI5wopR4t6BA/view?usp=drive_link"
-        }
-      ]
+      image: require("./assets/python.jpeg"),
+      imageAlt: "HackerRank Logo"
+      // footerLink: [
+      //   {
+      //     name: "View Certificate",
+      //     url: "https://drive.google.com/file/d/1bnrY9omMWTS0Vd5ozNo3tI5wopR4t6BA/view?usp=drive_link"
+      //   }
+      // ]
     },
     {
       title: "Volunteer – SMIT",
       subtitle:
         "Recognized for contributing as a volunteer at Saylani Mass IT Training (SMIT), assisting in community-driven tech learning initiatives.",
-      image: require("./assets/images/SMIT logo.png"),
-      imageAlt: "SMIT Logo",
-      footerLink: [
-        {
-          name: "View Certificate",
-          url: "https://drive.google.com/file/d/1SSH7c3b1RJ6WvoGFY5T4yfLncmUGseh2/view"
-        }
-      ]
+      image: require("./assets/volunteer.jpeg"),
+      imageAlt: "SMIT Logo"
+      // footerLink: [
+      //   {
+      //     name: "View Certificate",
+      //     url: "https://drive.google.com/file/d/1SSH7c3b1RJ6WvoGFY5T4yfLncmUGseh2/view"
+      //   }
+      // ]
     }
   ],
   display: true
