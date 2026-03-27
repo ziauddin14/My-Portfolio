@@ -10,7 +10,17 @@
   text-transform: uppercase;
   margin: 0px;
   margin-bottom: 50px;
+  color: #868e96;
 }
+
+.achievement-main-div {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px 10px;
+}
+
 .subTitle {
   color: $subTitle;
 }
