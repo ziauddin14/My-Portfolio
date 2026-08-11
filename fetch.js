@@ -1,7 +1,9 @@
-fs = require("fs");
-const https = require("https");
-process = require("process");
-require("dotenv").config();
+const fs = require("fs");
+const { request } = require("https");
+const process = require("process");
+const dotenv = require("dotenv");
+
+dotenv.config();
 
 const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
 const GITHUB_USERNAME = process.env.GITHUB_USERNAME;
@@ -16,6 +18,7 @@ const ERR = {
   requestFailedMedium:
     "The request to Medium didn't succeed. Check if Medium username in your .env file is correct."
 };
+
 if (USE_GITHUB_DATA === "true") {
   if (GITHUB_USERNAME === undefined) {
     throw new Error(ERR.noUserName);
@@ -53,6 +56,7 @@ if (USE_GITHUB_DATA === "true") {
         }
       }
     }
+  }
 }
 `
   });
@@ -67,7 +71,7 @@ if (USE_GITHUB_DATA === "true") {
     }
   };
 
-  const req = https.request(default_options, res => {
+  const req = request(default_options, res => {
     let data = "";
 
     console.log(`statusCode: ${res.statusCode}`);
@@ -103,7 +107,7 @@ if (MEDIUM_USERNAME !== undefined) {
     method: "GET"
   };
 
-  const req = https.request(options, res => {
+  const req = request(options, res => {
     let mediumData = "";
 
     console.log(`statusCode: ${res.statusCode}`);

@@ -10,16 +10,16 @@ export default function Footer() {
     <Fade bottom duration={1000} distance="5px">
       <div className="footer-div">
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          {emoji("Made with ❤️ by ZU Business Industries")}
+          {emoji("Made with ❤️ by Softwaremine")}
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           Theme by{" "}
           <a
-            href="https://github.com/ziauddin14"
+            href="https://softwaremine.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
-            ZU Business Industries
+            Softwaremine
           </a>
         </p>
       </div>

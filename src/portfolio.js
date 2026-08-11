@@ -1,255 +1,473 @@
-/* Change this file to get your personal Portfolio */
-
-// To change portfolio colors globally go to the  _globalColor.scss file
+/*
+ * Personal Portfolio Configuration
+ * Zia Uddin
+ * AI Engineer | AI Automation Engineer | Full-Stack Developer
+ */
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/splashAnimation";
 
+// ============================================================
 // Splash Screen
+// ============================================================
 
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: true,
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 2000
 };
 
-// Summary And Greeting Section
+// ============================================================
+// Hero / Greeting Section
+// ============================================================
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true
 };
 
 const greeting = {
   username: "Zia Uddin",
-  title: "Hi all, I'm Zia Uddin",
+
+  title: "Hi, I'm Zia Uddin",
+
   subTitle: emoji(
-    "🚀 MERN Stack Developer with hands-on experience in building full-stack web apps using MongoDB, Express, React, and Node.js.Passionate about creating clean, high-performance digital solutions and currently exploring AI & Data Science to build smarter applications."
+    "🤖 AI Engineer & AI Automation Engineer building AI-powered applications, intelligent workflows, business automation systems, and scalable full-stack solutions. I transform real-world business processes into smarter, faster, and more efficient digital systems."
   ),
-  resumeLink: "", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+
+  resumeLink: "",
+
+  displayGreeting: true
 };
 
+// ============================================================
 // Social Media Links
+// ============================================================
 
 const socialMediaLinks = {
   github: "https://github.com/ziauddin14",
+
   linkedin: "https://www.linkedin.com/in/zia-uddin-23327b341",
+
   gmail: "zu37216@gmail.com",
+
   facebook: "https://www.facebook.com/ziauddin114",
+
   instagram: "https://instagram.com/zia_uddin_ima",
+
   twitter: "https://x.com/Zia_Uddin0114",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+
+  display: true
 };
 
-// Skills Section
+// ============================================================
+// Skills / What I Do
+// ============================================================
+
 const skillsSection = {
   title: "What I Do",
+
   subTitle:
-    "PASSIONATE MERN STACK DEVELOPER WHO BUILDS MODERN, SCALABLE & DATA-DRIVEN WEB APPLICATIONS",
+    "AI ENGINEERING, BUSINESS AUTOMATION & FULL-STACK DEVELOPMENT FOR REAL-WORLD PROBLEMS",
+
   skills: [
     emoji(
-      "⚡ Build dynamic and responsive full-stack web applications using the MERN stack (MongoDB, Express, React, Node.js)"
+      "🤖 Build AI-powered applications, intelligent assistants, and LLM-integrated systems that solve practical business and productivity problems."
     ),
+
     emoji(
-      "⚡ Create clean, interactive, and high-performing user interfaces with React.js, Tailwind CSS, and TypeScript"
+      "⚙️ Analyze business operations and transform manual, repetitive workflows into automated digital processes using AI, APIs, databases, and workflow automation."
     ),
+
     emoji(
-      "⚡ Design and integrate secure RESTful & GraphQL APIs with robust backend logic"
+      "🚀 Develop scalable full-stack applications and SaaS products using React.js, Next.js, Node.js, TypeScript, Python, MongoDB, PostgreSQL, and REST APIs."
     ),
+
     emoji(
-      "⚡ Currently exploring AI & Data Science to build smarter, data-driven applications"
+      "🧠 Design AI-driven workflows, contextual assistants, intelligent decision-support systems, and automation solutions for real-world organizational use cases."
+    ),
+
+    emoji(
+      "📊 Build data-driven dashboards, analytics platforms, ETL pipelines, and business intelligence solutions using Python, Pandas, NumPy, MongoDB, and Streamlit."
+    ),
+
+    emoji(
+      "🏗️ Translate business requirements into technical architecture, software systems, automation workflows, MVPs, and production-ready digital solutions."
     )
   ],
 
-  softwareSkills: [
-    {
-      skillName: "HTML5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "CSS3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "Bootstrap",
-      fontAwesomeClassname: "fab fa-bootstrap"
-    },
-    {
-      skillName: "Tailwind CSS",
-      fontAwesomeClassname: "fas fa-wind"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "TypeScript",
-      fontAwesomeClassname: "fab fa-js-square"
-    },
-    {
-      skillName: "ReactJS",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "React Native",
-      fontAwesomeClassname: "fab fa-react-native"
-    },
-    {
-      skillName: "NextJS",
-      fontAwesomeClassname: "fab fa-nextjs"
-    },
-    {
-      skillName: "NodeJS",
-      fontAwesomeClassname: "fab fa-node-js"
-    },
-    {
-      skillName: "ExpressJS",
-      fontAwesomeClassname: "fas fa-server"
-    },
-    {
-      skillName: "MongoDB",
-      fontAwesomeClassname: "fas fa-leaf"
-    },
-    {
-      skillName: "GraphQL",
-      fontAwesomeClassname: "fas fa-project-diagram"
-    },
-    {
-      skillName: "Firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "Redis",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "NPM",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "Git",
-      fontAwesomeClassname: "fab fa-git-alt"
-    },
-    {
-      skillName: "GitHub",
-      fontAwesomeClassname: "fab fa-github"
-    },
-    {
-      skillName: "Python",
-      fontAwesomeClassname: "fab fa-python"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-  // Set false to hide this section, defaults to true
+  // softwareSkills: [
+  //   {
+  //     skillName: "Python",
+  //     fontAwesomeClassname: "fab fa-python"
+  //   },
+  //   {
+  //     skillName: "JavaScript",
+  //     fontAwesomeClassname: "fab fa-js"
+  //   },
+  //   {
+  //     skillName: "TypeScript",
+  //     fontAwesomeClassname: "fab fa-js-square"
+  //   },
+  //   {
+  //     skillName: "React.js",
+  //     fontAwesomeClassname: "fab fa-react"
+  //   },
+  //   {
+  //     skillName: "Next.js",
+  //     fontAwesomeClassname: "fab fa-js"
+  //   },
+  //   {
+  //     skillName: "Node.js",
+  //     fontAwesomeClassname: "fab fa-node-js"
+  //   },
+  //   {
+  //     skillName: "Express.js",
+  //     fontAwesomeClassname: "fas fa-server"
+  //   },
+  //   {
+  //     skillName: "NestJS",
+  //     fontAwesomeClassname: "fas fa-server"
+  //   },
+  //   {
+  //     skillName: "MongoDB",
+  //     fontAwesomeClassname: "fas fa-leaf"
+  //   },
+  //   {
+  //     skillName: "PostgreSQL",
+  //     fontAwesomeClassname: "fas fa-database"
+  //   },
+  //   {
+  //     skillName: "Redis",
+  //     fontAwesomeClassname: "fas fa-database"
+  //   },
+  //   {
+  //     skillName: "REST APIs",
+  //     fontAwesomeClassname: "fas fa-cloud"
+  //   },
+  //   {
+  //     skillName: "WebSockets",
+  //     fontAwesomeClassname: "fas fa-network-wired"
+  //   },
+  //   {
+  //     skillName: "Tailwind CSS",
+  //     fontAwesomeClassname: "fas fa-wind"
+  //   },
+  //   {
+  //     skillName: "Bootstrap",
+  //     fontAwesomeClassname: "fab fa-bootstrap"
+  //   },
+  //   {
+  //     skillName: "Pandas",
+  //     fontAwesomeClassname: "fab fa-python"
+  //   },
+  //   {
+  //     skillName: "NumPy",
+  //     fontAwesomeClassname: "fab fa-python"
+  //   },
+  //   {
+  //     skillName: "Scikit-learn",
+  //     fontAwesomeClassname: "fab fa-python"
+  //   },
+  //   {
+  //     skillName: "Streamlit",
+  //     fontAwesomeClassname: "fas fa-chart-line"
+  //   },
+  //   {
+  //     skillName: "Git",
+  //     fontAwesomeClassname: "fab fa-git-alt"
+  //   },
+  //   {
+  //     skillName: "GitHub",
+  //     fontAwesomeClassname: "fab fa-github"
+  //   },
+  //   {
+  //     skillName: "Docker",
+  //     fontAwesomeClassname: "fab fa-docker"
+  //   },
+  //   {
+  //     skillName: "Linux",
+  //     fontAwesomeClassname: "fab fa-linux"
+  //   }
+  // ],
+
+  display: true
 };
 
+// ============================================================
 // Education Section
+// ============================================================
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
+
   schools: [
     {
       schoolName: "Virtual University of Pakistan",
-      logo: require("./assets/VU log.png"), // logo path change kar sakte ho
+      logo: require("./assets/VU log.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "February 2026 - Present",
-      desc: "Currently pursuing Bachelor's in Computer Science with emphasis on modern web development, databases, and software engineering.",
+      duration: "2026 – Present",
+      desc:
+        "Currently pursuing a Bachelor's degree in Computer Science with a focus on software engineering, modern application development, databases, and computing fundamentals.",
       descBullets: [
-        "Learning full-stack web development including React, NodeJS, and NextJS",
-        "Working on personal and academic projects to apply programming skills"
-      ]
-    },
-    {
-      schoolName: "Govt. Degree Boys College",
-      logo: require("./assets/Degree College.jpg"), // tum logo ka path add kar sakte ho
-      subHeader: "Intermediate",
-      duration: "August 2023 - May 2025",
-      desc: "Completed Higher Secondary Education with focus on Computer Science subjects, Mathematics, and English.",
-      descBullets: [
-        "Actively participated in college programming competitions",
-        "Maintained top grades in Computer Science and Mathematics"
+        "Developing strong foundations in computer science and software engineering",
+        "Applying programming and system development concepts through practical projects"
       ]
     }
   ]
 };
 
-// Your top 3 proficient stacks/tech experience
+// ============================================================
+// Technical Proficiency
+// ============================================================
 
 const techStack = {
   viewSkillBars: true,
+
   experience: [
     {
-      Stack: "Frontend Development (React, Tailwind, TypeScript)",
-      progressPercentage: "92%"
+      Stack: "AI Engineering & AI Application Development",
+      progressPercentage: "85%"
     },
+
     {
-      Stack: "Backend Development (Node.js, Express, MongoDB, GraphQL)",
-      progressPercentage: "80%"
+      Stack: "AI Automation & Business Process Automation",
+      progressPercentage: "85%"
     },
+
     {
-      Stack: "AI, Data Science & Problem Solving (Python, Data Analysis)",
-      progressPercentage: "20%"
-    },
-    {
-      Stack: "Programming",
+      Stack: "Full-Stack Development (MERN / Next.js)",
       progressPercentage: "90%"
     },
+
     {
-      Stack: "SPA Development",
-      progressPercentage: "70%"
+      Stack: "Backend Development & API Architecture",
+      progressPercentage: "85%"
+    },
+
+    {
+      Stack: "Python, Data Processing & Analytics",
+      progressPercentage: "75%"
+    },
+
+    {
+      Stack: "Database & Data Architecture",
+      progressPercentage: "82%"
+    },
+
+    {
+      Stack: "Frontend Development (React / TypeScript)",
+      progressPercentage: "92%"
     }
   ],
-  displayCodersrank: true // Optional: Set true if you've added your CodersRank username
+
+  displayCodersrank: false
 };
 
-// Work experience section
+// ============================================================
+// Work Experience
+// ============================================================
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
+
   experience: [
     {
+      role: "Assistant AI Automation Engineer",
+
+      company: "Dawat-e-Islami",
+
+      // Add company logo if available
+      companylogo: require("./assets/Dawat e islami.jpg"),
+
+      date: "July 2026 – Present",
+
+      desc:
+        "Analyze business and operational workflows to identify opportunities for AI-driven automation. Transform manual processes into digital workflows and contribute to AI-powered systems, intelligent automation solutions, software testing, requirement analysis, technical documentation, and real-world organizational solutions."
+    },
+
+    {
+      role: "Founder & Lead AI Engineer",
+
+      company: "Softwaremine",
+
+      // Add logo if available
+      companylogo: require("./assets/Softwaremine's logo.jpeg"),
+
+      date: "March 2026 – Present",
+
+      desc:
+        "Founded and lead a technology company focused on AI-powered software, automation, SaaS products, and digital transformation. Design AI-powered applications, intelligent workflows, full-stack systems, MVPs, and automation solutions while leading architecture, development, testing, deployment, technical planning, and product strategy."
+    },
+
+    {
+      role: "Head of IT Department",
+
+      company: "ABWA Education System",
+
+      // Add logo if available
+      companylogo: require("./assets/ABWA School.jpg"),
+
+      date: "March 2026 – June 2026",
+
+      desc:
+        "Managed institutional IT systems and digital operations, supported staff with technical solutions, contributed to digital transformation initiatives, and helped teams adopt technology-driven workflows to improve operational processes."
+    },
+
+    {
       role: "Frontend Developer",
-      company: "Aaghaz Tech",
-      companylogo: require("./assets/images/Aaghaz tech.png"),
-      date: "May 2025 – July 2025",
-      desc: "I worked as a Frontend Developer Intern at Aaghaz Tech from May 2025 to July 2025, where I developed the complete frontend of the company’s official website."
-    },
-    {
-      role: "Senior Frontend Developer",
-      company: "Human-HealthCare.com",
+
+      company: "Human Healthcare Services",
+
       companylogo: require("./assets/HHC-logo.png"),
-      date: "Nov 2025 – Feb 2026",
-      desc: "I joined Human-Healthcare.com for a Senior Frontend Developer role, and I Develope the complete frontend of the company’s official website with API integration."
+
+      date: "November 2025 – February 2026",
+
+      desc:
+        "Developed responsive healthcare-related web interfaces and reusable frontend components, implemented UI and UX improvements, and contributed to healthcare digital solutions using modern JavaScript and web development technologies."
     },
+
     {
-      role: "Full Stack Developer",
-      company: "DeveloperHub Corporation",
-      companylogo: require("./assets/DeveloperHub Corporaiton.jpg"),
-      date: "Dec 2025 – Jan 2026",
-      desc: "I joined DeveloperHub Corporation for a Full Stack Developer role, where I work with all the Web Development Stacks and I'm currently focused on Backend Development."
+      role: "Frontend Web Developer Intern",
+
+      company: "Aaghaz Tech Pakistan",
+
+      companylogo: require("./assets/images/Aaghaz tech.png"),
+
+      date: "May 2025 – July 2025",
+
+      desc:
+        "Assisted with frontend web development, reusable component development, UI improvements, and modern frontend workflows while gaining practical experience working on real-world web applications."
     }
   ]
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
+// ============================================================
+// GitHub / Open Source
+// ============================================================
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "true",
+
+  display: true
 };
 
-// Some big projects you have worked on
+// ============================================================
+// Featured / Big Projects
+// ============================================================
+
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME OF MY FEATURED WORKS BUILT WITH PASSION AND MODERN TECH",
+  title: "Featured Projects",
+
+  subtitle:
+    "AI-POWERED APPLICATIONS, AUTOMATION SYSTEMS, DATA PLATFORMS & FULL-STACK PRODUCTS",
+
   projects: [
+    // ========================================================
+    // 01 - DPS
+    // ========================================================
+
     {
-      projectName: "Primecare Health – Comprehensive Clinic Management System",
+      projectName:
+        "Digital Personal Secretary (DPS) — AI-Powered Personal Productivity Platform",
+
       projectDesc:
-        "A sophisticated, full-stack Clinic Management System (CMS) designed to automate healthcare workflows. It features secure patient records, real-time appointment booking, doctor scheduling, and a global admin panel for streamlined medical facility operations. Built with a focus on performance, SEO, and user-centric design.",
+        "An AI-powered personal secretary designed to manage tasks, goals, projects, calendar activities, notes, and personal knowledge. The platform includes an AI Secretary with contextual assistance, conversation memory, target-aware interactions, productivity dashboards, recommendations, and intelligent workflows. Built as an extensible platform exploring autonomous AI workflows beyond traditional chatbots.",
+
+      footerLink: [
+        {
+          name: "Visit Project",
+          url: "https://dps-ai.vercel.app/"
+        }
+      ]
+    },
+
+    // ========================================================
+    // 02 - Crypto Analytics
+    // ========================================================
+
+    {
+      projectName:
+        "Crypto Analytics Dashboard — Real-Time Data Analytics Platform",
+
+      projectDesc:
+        "A data analytics platform for collecting, processing, storing, and visualizing cryptocurrency market data. Built with Python-based extraction and ETL workflows, MongoDB data storage, Pandas-based processing, and an interactive Streamlit dashboard for presenting cryptocurrency analytics and insights.",
+
+      footerLink: [
+        {
+          name: "View Dashboard",
+          url: "https://crypto-analytics-dashboard.streamlit.app/"
+        }
+      ]
+    },
+
+    // ========================================================
+    // 03 - EMS
+    // ========================================================
+
+    {
+      projectName:
+        "Employee Management System (EMS) — Workforce Management Platform",
+
+      projectDesc:
+        "A scalable MERN-based workforce management platform featuring employee management, authentication, authorization, dashboards, and backend APIs. The architecture is designed to support attendance management, task management, KPI tracking, employee activity monitoring, and executive dashboards for organizational workforce operations.",
+
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://emp-frotend.vercel.app/"
+        }
+      ]
+    },
+
+    // ========================================================
+    // 04 - Human Healthcare
+    // ========================================================
+
+    {
+      projectName:
+        "Human-Healthcare.com — Healthcare Company Website",
+
+      projectDesc:
+        "A production healthcare website developed with a focus on responsive design, reusable frontend components, modern UI/UX, accessibility, smooth interactions, and a professional digital experience for a healthcare organization.",
+
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://human-healthcare.com/"
+        }
+      ]
+    },
+
+    // ========================================================
+    // 05 - Zakat Management
+    // ========================================================
+
+    {
+      projectName:
+        "Zakat Management System — Full-Stack Zakat Management Platform",
+
+      projectDesc:
+        "A MERN-based web application designed for Zakat calculation and management. The system demonstrates secure authentication, database operations, responsive interfaces, RESTful APIs, and end-to-end full-stack application development.",
+
+      footerLink: [
+        {
+          name: "Visit Project",
+          url: "https://zakat-ms.vercel.app/"
+        }
+      ]
+    },
+
+    // ========================================================
+    // 06 - PrimeCare
+    // ========================================================
+
+    {
+      projectName:
+        "PrimeCare Health — Comprehensive Clinic Management System",
+
+      projectDesc:
+        "A full-stack clinic management platform designed to digitize and streamline healthcare workflows. The system focuses on patient management, appointment workflows, doctor scheduling, administrative operations, and a modern user experience for healthcare facilities.",
+
       footerLink: [
         {
           name: "Visit Project",
@@ -257,284 +475,259 @@ const bigProjects = {
         }
       ]
     },
+
+    // ========================================================
+    // 07 - Zakat Calculator
+    // ========================================================
+
     {
-      projectName: "Human-Healthcare.com – Official Company Website",
+      projectName:
+        "Zakat Calculator — Interactive Islamic Finance Calculator",
+
       projectDesc:
-        "A large-scale, production-ready healthcare website built for Human-Healthcare.com, where I currently work. I designed and developed the complete frontend using modern technologies, delivering a fully responsive, high-performance UI with smooth animations, clean layouts, and an enterprise-level user experience for a live healthcare platform.",
+        "An interactive Zakat calculation tool designed to simplify the process of calculating Zakat based on user-provided financial information. Built as part of the Zakat Management System with a responsive interface and practical calculation workflow.",
+
       footerLink: [
         {
-          name: "Visit Website",
-          url: "https://human-healthcare.com"
+          name: "Open Calculator",
+          url: "https://zakat-ms.vercel.app/zakat-calculator"
         }
       ]
     },
+
+    // ========================================================
+    // 08 - JavaScript Projects
+    // ========================================================
+
     {
-      // image: require("./assets/images/emsLogo.webp"),
-      projectName: "Zakat & Donation Management System",
-      projectDesc:
-        "A MERN-based full-stack web app for Zakat calculation and management with secure authentication, real-time database operations, and a responsive UI. Deployed using Vercel (frontend) and Render (backend), showcasing RESTful APIs, cloud deployment, and end-to-end full-stack development skills",
-      footerLink: [
-        {
-          name: "View Project",
-          url: "https://zakat-ms.vercel.app"
-        }
-      ]
-    },
-    {
-      // image: require("./assets/images/emsLogo.webp"),
-      projectName: "EMS (Employee Management System)",
-      projectDesc:
-        "A full-stack MERN web application designed for efficient employee management — featuring authentication, role-based dashboards, and real-time CRUD operations to streamline HR workflows. Deployed using Vercel and backend under Development , showcasing RESTful APIs and end-to-end full-stack development skills",
-      footerLink: [
-        {
-          name: "Under Development",
-          url: "https://emp-frotend.vercel.app"
-        }
-      ]
-    },
-    {
-      projectName: "React Boilerplate – UI Enhancement",
-      projectDesc:
-        "Contributed to an open-source React Boilerplate by improving the homepage UI/UX. Added modern hover effects, smooth animations, and interactive button styling — resulting in better visual appeal and user experience. Submitted via GitHub Pull Request. ",
-      footerLink: [
-        {
-          name: "View Contribution",
-          url: "https://github.com/ziauddin14/react-boilerplate"
-        }
-      ]
-    },
-    {
-      // image: require("./assets/images/emsLogo.webp"),
-      projectName: "Human HealthCare ",
-      projectDesc:
-        "I designed and developed a fully responsive Human Healthcare website using Next.js and Tailwind CSS, featuring a clean UI with smooth transitions and modern animations for an engaging user experience.",
-      footerLink: [
-        {
-          name: "Visit Project",
-          url: "https://human-healthcare-next.vercel.app/"
-        }
-      ]
-    },
-    {
-      // image: require("./assets/images/novaTalkLogo.webp"),
-      projectName: "NovaTalk – AI-Powered Chatbot",
-      projectDesc:
-        "A MERN stack chatbot trained on a huge dataset that answers questions based on the data it possesses, similar to the GPT-1 model.",
-      footerLink: [
-        {
-          name: "Visit Project",
-          url: "https://novatalk-plum.vercel.app/"
-        }
-      ]
-    },
-    {
-      // image: require("./assets/images/jsProjectsLogo.webp"),
       projectName: "JavaScript Projects Collection",
+
       projectDesc:
-        "A collection of mini JavaScript projects showcasing core logic and frontend skills — including the classic Snack Game, Weather App, Table Generator, and several other fun interactive web utilities built purely with HTML, CSS, and JS.",
+        "A collection of practical JavaScript projects demonstrating core programming logic, DOM manipulation, frontend development, API integration, and interactive UI development. Includes projects such as a Snake Game, Weather App, Table Generator, To-Do applications, and other JavaScript utilities.",
+
       footerLink: [
         {
           name: "View Projects",
           url: "https://ziauddin14.github.io/JavaScript-Projects/"
         }
       ]
-    }
+    },
+
+    // ========================================================
+    // 09 - NovaTalk
+    // ========================================================
   ],
+
   display: true
 };
 
-// Achievement Section
-// Include certificates, talks etc
+// ============================================================
+// Achievements & Certifications
+// ============================================================
 
 const achievementSection = {
   title: emoji("Achievements & Certifications 🏆"),
+
   subtitle:
-    "Some highlights of my learning journey, certifications, and contributions!",
+    "Certifications, professional learning, technical achievements, and contributions from my development journey.",
 
   achievementsCards: [
     {
       title: "Microsoft – AI Concepts for Developers",
+
       subtitle:
-        "Successfully completed the Microsoft AI Concepts for Developers Learning Path, earning 7 achievement badges and a final trophy certificate for mastering core AI concepts.",
-      image: require("./assets/microsoft.jpeg"), // add microsoft logo image in assets
+        "Successfully completed the Microsoft AI Concepts for Developers Learning Path, earning achievement badges and a final trophy certificate covering core AI concepts.",
+
+      image: require("./assets/microsoft.jpeg"),
+
       imageAlt: "Microsoft Logo"
-      // footerLink: [
-      //   {
-      //     name: "View Certificate",
-      //     url: "https://drive.google.com/file/d/1dAqdfTI3PGG1cwniveuXkV8dCS9x1aq1/view?usp=drive_link"
-      //   }
-      // ]
     },
+
     {
       title: "Internship Completion Certificate",
+
       subtitle:
-        "Awarded for successfully completing a 3-month internship (Nov 2025 – Feb 2026). Contributed to the development of the company’s official website and mobile portal.",
+        "Successfully completed a 3-month internship at Human Healthcare Services from November 2025 to February 2026, contributing to healthcare web and digital solutions.",
+
       image: require("./assets/internship completion.jpeg"),
-      imageAlt: "HHC Logo"
-      // footerLink: [
-      //   {
-      //     name: "Company Website",
-      //     url: "https://human-healthcare.com"
-      //   }
-      // ]
+
+      imageAlt: "Human Healthcare Logo"
     },
+
     {
       title: "CWP (Certified Web Professional)",
+
       subtitle:
-        "Successfully completed Web Development training, gaining strong fundamentals and hands-on development experience. SMIT (Saylani Mass IT Training)",
+        "Successfully completed Web Development training at SMIT, gaining practical experience and strong foundations in modern web development.",
+
       image: require("./assets/web.jpeg"),
+
       imageAlt: "SMIT Logo"
-      // footerLink: [
-      //   {
-      //     name: "View Certificate",
-      //     url: "https://drive.google.com/file/d/1tix3x01K56nYrgBW2tI9516K3rxUKMAr/view?usp=drive_link"
-      //   }
-      // ]
     },
+
     {
       title: "Python Essential 1 Certification",
+
       subtitle:
-        "Earned from Cisco Networking Academy for demonstrating core proficiency in Python fundamentals, problem-solving, and programming logic.",
+        "Cisco Networking Academy certification demonstrating foundational proficiency in Python programming, problem-solving, and programming logic.",
+
       image: require("./assets/cisco.jpeg"),
+
       imageAlt: "Cisco Logo"
-      // footerLink: [
-      //   {
-      //     name: "View Certificate",
-      //     url: "https://drive.google.com/file/d/1KCULK-pHi4BHGz8H4-yjZkKODAryL7y9/view?usp=drive_link"
-      //   }
-      // ]
     },
+
     {
       title: "JavaScript (Basic) Certification",
+
       subtitle:
-        "Earned from HackerRank for demonstrating core proficiency in JavaScript fundamentals, problem-solving, and programming logic.",
+        "HackerRank certification demonstrating proficiency in JavaScript fundamentals, programming logic, and problem-solving.",
+
       image: require("./assets/javascript.jpeg"),
+
       imageAlt: "HackerRank Logo"
-      // footerLink: [
-      //   {
-      //     name: "View Certificate",
-      //     url: "https://drive.google.com/file/d/1bf_e_LBd4wPReIgXjH49gjH5FU2aSahi/view"
-      //   }
-      // ]
     },
+
     {
       title: "12-Hour Hackathon – SMIT",
+
       subtitle:
-        "Successfully participated in a 12-hour Hackathon organized by SMIT, developing a Python-based SMS automation project and completing all assigned tasks.",
+        "Participated in a 12-hour SMIT Hackathon and developed a Python-based SMS automation project while completing the assigned technical challenges.",
+
       image: require("./assets/hackathon.jpeg"),
+
       imageAlt: "SMIT Hackathon Logo"
-      // footerLink: [
-      //   {
-      //     name: "View Certificate",
-      //     url: "https://drive.google.com/file/d/17gNhsHpjRgfYKXmUeViUIWjRsAxN47q4/view?usp=drive_link" // replace with your actual certificate link
-      //   }
-      // ]
     },
+
     {
       title: "Python (Basic) Certification",
+
       subtitle:
-        "Earned from HackerRank for demonstrating core proficiency in Python fundamentals, problem-solving, and programming logic.",
+        "HackerRank certification demonstrating foundational Python programming and problem-solving skills.",
+
       image: require("./assets/python.jpeg"),
+
       imageAlt: "HackerRank Logo"
-      // footerLink: [
-      //   {
-      //     name: "View Certificate",
-      //     url: "https://drive.google.com/file/d/1bnrY9omMWTS0Vd5ozNo3tI5wopR4t6BA/view?usp=drive_link"
-      //   }
-      // ]
     },
+
     {
       title: "Volunteer – SMIT",
+
       subtitle:
-        "Recognized for contributing as a volunteer at Saylani Mass IT Training (SMIT), assisting in community-driven tech learning initiatives.",
+        "Recognized for contributing as a volunteer at Saylani Mass IT Training and supporting community-driven technology learning initiatives.",
+
       image: require("./assets/volunteer.jpeg"),
+
       imageAlt: "SMIT Logo"
-      // footerLink: [
-      //   {
-      //     name: "View Certificate",
-      //     url: "https://drive.google.com/file/d/1SSH7c3b1RJ6WvoGFY5T4yfLncmUGseh2/view"
-      //   }
-      // ]
     }
   ],
+
   display: true
 };
 
-// Blogs Section
+// ============================================================
+// Blogs
+// ============================================================
 
 const blogSection = {
   title: "Blogs",
+
   subtitle:
-    "I love sharing my thoughts on technology, development trends, and what I learn along the way.",
-  displayMediumBlogs: "false", // since it's a local blog, not fetched from Medium
+    "Thoughts and practical insights on AI engineering, automation, software development, data, and emerging technologies.",
+
+  displayMediumBlogs: "false",
+
   blogs: [
     {
-      url: "https://www.facebook.com/share/p/17SpXnLzX9/", // add your blog link here once published
+      url: "https://www.facebook.com/share/p/17SpXnLzX9/",
+
       title: "Is Data Science Dead?",
+
       description:
-        "An honest take on the evolution of Data Science — exploring how AI automation, MLOps, and modern development stacks are reshaping the field rather than replacing it."
+        "An honest take on the evolution of Data Science and how AI automation, modern engineering practices, and MLOps are reshaping the field."
     }
   ],
+
   display: true
 };
 
-// Talks Sections
+// ============================================================
+// Talks
+// ============================================================
 
 const talkSection = {
   title: "TALKS",
+
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "Sharing practical knowledge about AI, automation, software engineering, and technology."
   ),
 
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: false // Set false to hide this section, defaults to true
+  talks: [],
+
+  display: false
 };
 
-// Podcast Section
+// ============================================================
+// Podcast
+// ============================================================
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: false // Set false to hide this section, defaults to true
+  subtitle:
+    "Conversations around technology, AI, software engineering, automation, and building digital products.",
+
+  podcast: [],
+
+  display: false
 };
 
-// Resume Section
+// ============================================================
+// Resume
+// ============================================================
+
 const resumeSection = {
   title: "Resume",
-  subtitle: "Feel free to download my resume",
 
-  // Please Provide with Your Podcast embeded Link
-  display: false // Set false to hide this section, defaults to true
+  subtitle:
+    "View my professional experience, technical skills, projects, and AI engineering background.",
+
+  display: true
 };
 
+// ============================================================
+// Contact
+// ============================================================
+
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Let's Build Something 🚀"),
+
   subtitle:
-    "Open for collaborations, freelance projects, and good conversations ✨",
+    "Open to AI engineering roles, AI automation projects, remote opportunities, freelance work, collaborations, and building intelligent digital solutions.",
+
   number: "+92 319 8998086",
+
   email_address: "zu37216@gmail.com"
 };
 
-// Twitter Section
+// ============================================================
+// Twitter / X
+// ============================================================
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: false // Set true to display this section, defaults to false
+  userName: "Zia_Uddin0114",
+
+  display: false
 };
 
-const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+// ============================================================
+// Hiring Status
+// ============================================================
+
+const isHireable = true;
+
+// ============================================================
+// Export
+// ============================================================
 
 export {
   illustration,
